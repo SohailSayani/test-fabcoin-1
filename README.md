@@ -1,3 +1,5 @@
+Download windows and ubuntu binary fabcoin code from http://13.59.134.49/en/testnet/
+
 Fabcoin Core integration/staging tree
 =====================================
 

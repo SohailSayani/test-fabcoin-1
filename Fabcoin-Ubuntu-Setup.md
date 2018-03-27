@@ -57,6 +57,6 @@ Run fabcoind -h , will show all the running options.
 Run  $HOME/fabcoin/bin/fabcoin-qt  , which is under c:/workspace/fabcoin/bin.
 Mostly, windows will warn you because you run this binary code which download from website, and you need allow fabcoin-qt run and access internet to make fabcoin-qt run.
 
-## More about how to use How to use  
+## More about how to use  
 
 Please refer fabcoin website and use guide.

@@ -45,7 +45,7 @@ Please set below content in fabcoin.conf, to specific testnet.
     addnode=13.59.134.49
     gen=1
     G=1
-allgpu=1
+    allgpu=1
 
 # Run 
 

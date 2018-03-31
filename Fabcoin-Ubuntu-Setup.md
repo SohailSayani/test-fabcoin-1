@@ -62,10 +62,18 @@ Please set below content in fabcoin.conf, to specific testnet.
 Run $HOME/fabcoin/bin/fabcoind will start fabcoin full node server. 
 Run fabcoind -h , will show all the running options.
 
-## Run wallet program.
-Run  $HOME/fabcoin/bin/fabcoin-qt  , which is under c:/workspace/fabcoin/bin.
-Mostly, windows will warn you because you run this binary code which download from website, and you need allow fabcoin-qt run and access internet to make fabcoin-qt run.
+run fabcoin full node in background and start all GPU device mining.
+    $HOME/fabcoin/bin/fabcoind -daemon  -addnode=54.215.244.48 -addnode=18.130.8.117 -gen -G -allgpu
 
-## More about how to use  
+check log
+    cd $HOME/.fabcoin
+    vi debug.log
 
-Please refer fabcoin website and use guide.
+## Run wallet program. 
+
+Will start wallet program and also start GPU device mining
+    $HOME/fabcoin/bin/fabcoin-qt   -addnode=54.215.244.48 -addnode=18.130.8.117 -gen -G -allgpu
+    
+## How to use  
+
+Please refer fabcoin website and User Guide and document under doc.

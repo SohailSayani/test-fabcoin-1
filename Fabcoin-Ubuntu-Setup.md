@@ -40,7 +40,15 @@ Download Fabcoin Ubuntu 16.04 version from   18.188.158.172/runtime.html, and ex
 Set $HOME/.fabcoin as default data folder, config file is $HOME/.fabcoin/data/fabcoin.conf 
 Please set below content in fabcoin.conf, to specific testnet.
 
-    testnet=1 
+### Mainnet
+    addnode=54.215.244.48
+    addnode=18.130.8.117
+    gen=1
+    G=1                  
+    allgpu=1     
+    
+### Testnet
+    testnet=1                                 
     addnode=35.182.160.212
     addnode=13.59.134.49
     gen=1

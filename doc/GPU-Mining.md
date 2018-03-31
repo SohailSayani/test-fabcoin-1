@@ -50,7 +50,7 @@ Ubuntu 16.04 / amdgpu
 
 Ubuntu 16.04 / Nvidia
 
-    $ sudo apt-get install nvidia-open-dev nvidia-361
+    $ sudo apt-get install nvidia-opencl-dev nvidia-361
 
 ## Compilation and installation Fabcoin code
 

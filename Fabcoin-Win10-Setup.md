@@ -15,6 +15,7 @@ Testnet
     gen=1
 
 MainNet
+
     addnode=54.215.244.48
     addnode=18.130.8.117
     gen=1

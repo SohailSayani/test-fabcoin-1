@@ -1,4 +1,4 @@
-How to setup a fabcoin test environment in your windows 10 environment.
+How to setup a fabcoin test environment in your Ubuntu 16.04 environment.
 
 #  Install Ubuntu 16.04  and  support package
 Please refer doc/Build-unix.md to setup Ubuntu 16.04 and install support package.

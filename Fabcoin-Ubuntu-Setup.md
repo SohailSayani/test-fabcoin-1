@@ -7,6 +7,7 @@ Please refer doc/Build-unix.md to setup Ubuntu 16.04 and install support package
 wallet need GUI desktop.
 
 ## Install other support package
+Please refer doc/build-unix.md, to install support package for fabcoin.
 
 Below is a quick shell-script to install package.
 
@@ -34,7 +35,7 @@ Please refer doc/GPU-Mining.md and your graphic card specification to install pr
 # Download Fabcoin and configure
     
 ## Download
-Download Fabcoin Ubuntu 16.04 version from   18.188.158.172/runtime.html, and extract it to $HOME/fabcoin 
+Download Fabcoin Ubuntu 16.04 version from  fabcoin.pro/runtime.html, and extract it to $HOME/fabcoin 
 
 ## Configure Fabcoin
 

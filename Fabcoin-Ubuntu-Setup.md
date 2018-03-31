@@ -3,7 +3,8 @@ How to setup a fabcoin test environment in your Ubuntu 16.04 environment.
 #  Install Ubuntu 16.04  and  support package
 Please refer doc/Build-unix.md to setup Ubuntu 16.04 and install support package.
 
-## Install Ubuntu 16.04 with GUI desktop.
+## Install Ubuntu 16.04 
+wallet need GUI desktop.
 
 ## Install other support package
 

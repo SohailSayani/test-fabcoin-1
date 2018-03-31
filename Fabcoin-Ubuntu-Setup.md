@@ -64,7 +64,8 @@ Run $HOME/fabcoin/bin/fabcoind will start fabcoin full node server.
 Run fabcoind -h , will show all the running options.
 
 run fabcoin full node in background and start all GPU device mining.
-    $HOME/fabcoin/bin/fabcoind -daemon  -addnode=54.215.244.48 -addnode=18.130.8.117 -gen -G -allgpu
+
+     $HOME/fabcoin/bin/fabcoind -daemon  -addnode=54.215.244.48 -addnode=18.130.8.117 -gen -G -allgpu
 
 check log
     cd $HOME/.fabcoin
@@ -73,7 +74,8 @@ check log
 ## Run wallet program. 
 
 Will start wallet program and also start GPU device mining
-    $HOME/fabcoin/bin/fabcoin-qt   -addnode=54.215.244.48 -addnode=18.130.8.117 -gen -G -allgpu
+
+     $HOME/fabcoin/bin/fabcoin-qt   -addnode=54.215.244.48 -addnode=18.130.8.117 -gen -G -allgpu
     
 ## How to use  
 

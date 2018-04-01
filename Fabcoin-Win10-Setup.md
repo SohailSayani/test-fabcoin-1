@@ -7,11 +7,19 @@ Download fabcoin-win10.zip , and unzip it to c:/workspace/fabcoin
 #configure
 Config file is under c:/workspace/fabcoin/data/fabcoin.conf 
 
+Testnet
+
     testnet=1 
     addnode=35.182.160.212
     addnode=13.59.134.49
     gen=1
 
+MainNet
+
+    addnode=54.215.244.48
+    addnode=18.130.8.117
+    gen=1
+ 
 
 # Run wallet program.
 Run fabcoin-qt.exe , which is under c:/workspace/fabcoin/bin.

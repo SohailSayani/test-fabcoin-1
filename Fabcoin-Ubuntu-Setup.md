@@ -1,11 +1,15 @@
-How to setup a fabcoin test environment in Ubuntu environment.
+
+How to setup a fabcoin test environment in your Ubuntu 16.04 environment.
+
 
 #  Install Ubuntu 16.04  and  support package
 Please refer doc/Build-unix.md to setup Ubuntu 16.04 and install support package.
 
-## Install Ubuntu 16.04 with GUI desktop.
+## Install Ubuntu 16.04 
+wallet need GUI desktop.
 
 ## Install other support package
+Please refer doc/build-unix.md, to install support package for fabcoin.
 
 Below is a quick shell-script to install package.
 
@@ -33,14 +37,22 @@ Please refer doc/GPU-Mining.md and your graphic card specification to install pr
 # Download Fabcoin and configure
     
 ## Download
-Download Fabcoin Ubuntu 16.04 version from   http://13.59.134.49/en/testnet/Fabcoin-Ubuntu16.04-AMD.tar.Z, and extract it to $HOME/fabcoin 
+Download Fabcoin Ubuntu 16.04 version from  fabcoin.pro/runtime.html, and extract it to $HOME/fabcoin 
 
 ## Configure Fabcoin
 
 Set $HOME/.fabcoin as default data folder, config file is $HOME/.fabcoin/data/fabcoin.conf 
 Please set below content in fabcoin.conf, to specific testnet.
 
-    testnet=1 
+### Mainnet
+    addnode=54.215.244.48
+    addnode=18.130.8.117
+    gen=1
+    G=1                  
+    allgpu=1     
+    
+### Testnet
+    testnet=1                                 
     addnode=35.182.160.212
     addnode=13.59.134.49
     gen=1
@@ -53,10 +65,20 @@ Please set below content in fabcoin.conf, to specific testnet.
 Run $HOME/fabcoin/bin/fabcoind will start fabcoin full node server. 
 Run fabcoind -h , will show all the running options.
 
-## Run wallet program.
-Run  $HOME/fabcoin/bin/fabcoin-qt  , which is under c:/workspace/fabcoin/bin.
-Mostly, windows will warn you because you run this binary code which download from website, and you need allow fabcoin-qt run and access internet to make fabcoin-qt run.
+run fabcoin full node in background and start all GPU device mining.
 
-## More about how to use  
+     $HOME/fabcoin/bin/fabcoind -daemon  -addnode=54.215.244.48 -addnode=18.130.8.117 -gen -G -allgpu
 
-Please refer fabcoin website and use guide.
+check log
+    cd $HOME/.fabcoin
+    vi debug.log
+
+## Run wallet program. 
+
+Will start wallet program and also start GPU device mining
+
+     $HOME/fabcoin/bin/fabcoin-qt   -addnode=54.215.244.48 -addnode=18.130.8.117 -gen -G -allgpu
+    
+## How to use  
+
+Please refer fabcoin website and User Guide and document under doc.
